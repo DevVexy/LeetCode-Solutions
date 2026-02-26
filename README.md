@@ -1,0 +1,69 @@
+# 🚀 LeetCode Solutions: Java Edition
+
+Este repositório contém minhas resoluções para os desafios do [LeetCode](https://leetcode.com/), focadas em eficiência algorítmica, estruturas de dados otimizadas e boas práticas de programação em Java.
+
+---
+
+## 🛠️ Desafios Resolvidos
+
+### 🔹 Arrays & HashMaps
+| # | Desafio | Dificuldade | Solução | Complexidade |
+|---|---------|-------------|---------|--------------|
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Fácil | [Link](./001-two-sum) | $O(n)$ Tempo / $O(n)$ Espaço |
+| 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | 🟢 Fácil | [Link](./1929-concatenation) | $O(n)$ Tempo / $O(1)$ Espaço |
+| 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 Fácil | [Link](./1470-shuffle) | $O(n)$ Tempo / $O(n)$ Espaço |
+| 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🟢 Fácil | [Link](./485-max-ones) | $O(n)$ Tempo / $O(1)$ Espaço |
+
+### 🔹 Linked Lists (Listas Ligadas)
+| # | Desafio | Dificuldade | Solução | Complexidade |
+|---|---------|-------------|---------|--------------|
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 Médio | [Link](./002-add-two-numbers) | $O(\max(m, n))$ |
+
+### 🔹 Strings & Sliding Window
+| # | Desafio | Dificuldade | Solução | Complexidade |
+|---|---------|-------------|---------|--------------|
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Médio | [Link](./003-longest-substring) | $O(n)$ Tempo |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 Médio | [Link](./005-longest-palindrome) | $O(n^2)$ Tempo / $O(1)$ Espaço |
+| 6 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | 🟡 Médio | [Link](./006-zigzag-conversion) | $O(n)$ Tempo / $O(1)$ Espaço |
+
+### 🔹 Binary Trees & Bit Manipulation
+| # | Desafio | Dificuldade | Solução | Complexidade |
+|---|---------|-------------|---------|--------------|
+| 1022 | [Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-root-to-leaf-binary-numbers/) | 🟢 Fácil | [Link](./1022-sum-root-leaf) | $O(n)$ Tempo |
+
+### 🔹 Algoritmos Avançados (Binary Search)
+| # | Desafio | Dificuldade | Solução | Complexidade |
+|---|---------|-------------|---------|--------------|
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Difícil | [Link](./004-median-arrays) | $O(\log(\min(m, n)))$ |
+
+---
+
+## 💡 Conceitos Aplicados
+
+Neste portfólio, apliquei técnicas fundamentais de Ciência da Computação:
+
+* **Sliding Window:** Otimização de busca em strings de $O(n^2)$ para $O(n)$.
+    
+* **Busca Binária em Partição:** Resolução de problemas de nível "Hard" com performance logarítmica.
+* **Manipulação de Bits:** Uso de *bitwise shifts* (`<<`, `|`) para processamento eficiente de números binários.
+* **Recursão (DFS):** Travessia de árvores binárias para soma de caminhos raiz-folha.
+    
+* **Ponteiros e Dummy Nodes:** Gestão eficiente de memória e simplificação de algoritmos em Listas Ligadas.
+
+---
+
+## 📁 Estrutura do Projeto
+
+```text
+.
+├── 001-two-sum/
+├── 002-add-two-numbers/
+├── 003-longest-substring/
+├── 004-median-arrays/
+├── 005-longest-palindrome/
+├── 006-zigzag-conversion/
+├── 485-max-ones/
+├── 1022-sum-root-leaf/
+├── 1470-shuffle/
+├── 1929-concatenation/
+└── README.md (Este arquivo)
