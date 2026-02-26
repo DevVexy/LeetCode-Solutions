@@ -1,8 +1,10 @@
+
 # 🚀 LeetCode Solutions: Java Edition
 
 Este repositório contém minhas resoluções para os desafios do [LeetCode](https://leetcode.com/), focadas em eficiência algorítmica, estruturas de dados otimizadas e boas práticas de programação em Java.
 
 ---
+
 
 ## 🛠️ Desafios Resolvidos
 
@@ -67,3 +69,4 @@ Neste portfólio, apliquei técnicas fundamentais de Ciência da Computação:
 ├── 1470-shuffle/
 ├── 1929-concatenation/
 └── README.md (Este arquivo)
+
